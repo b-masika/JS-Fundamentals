@@ -5,7 +5,7 @@ const arg = process.argv[2];
 const x = parseInt(arg);
 
 //Check if x is a valid positive integer
-if (isNaN(x) || x <= o) {
+if (isNaN(x) || x <= 0) {
     console.log("Missing number of occurrences");
 }
 else {
